@@ -201,9 +201,9 @@ export function defaults(): HeadlessState {
       prevSvgHash: '',
     },
     hold: timer(),
-    dimensions: { width: 8, height: 8 },
-    geometry: cg.Geometry.dim8x8,
-    variant: 'chess',
+    dimensions: { width: 9, height: 9 },
+    geometry: cg.Geometry.dim9x9,
+    variant: 'shogi',
     chess960: false,
     notation: cg.Notation.DEFAULT,
   };
