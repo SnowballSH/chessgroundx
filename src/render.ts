@@ -218,7 +218,7 @@ function removeNodes(s: State, nodes: HTMLElement[]): void {
 }
 
 function posZIndex(pos: cg.Pos, asWhite: boolean): string {
-  let z = 3 + pos[1] * 9 + (7 - pos[0]);
+  let z = 3 + pos[1] * 8 + (8 - pos[0]);
   if (asWhite) z = 69 - z;
   return z + '';
 }
